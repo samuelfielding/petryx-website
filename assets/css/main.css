@@ -348,7 +348,7 @@ header
 .header-area .main-nav .logo {
   line-height: 80px;
   color: #fff;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 700;
   /*text-transform: uppercase;*/
   /*letter-spacing: 2px;*/
@@ -670,6 +670,7 @@ header
     height: 50px !important;
     line-height: 50px !important;
     padding: 0px !important;
+    padding-left: 20px !important;
     border: none !important;
     background: #fff !important;
     color: #3b566e !important;
@@ -844,6 +845,7 @@ TRY IT ... with or without CENTER CENTER
     font-size: 36px !important;
     line-height: 30px !important;
     margin-bottom: 20px !important;
+    margin-top: 100px !important;
   }
   .welcome-area .header-text h1 span {
     color: #fff;
@@ -1029,7 +1031,7 @@ services
 }
 
 .service-item {
-  /*cursor: pointer;*/
+  cursor: grab ;
   display: block;
   background: #ffffff;
   /*box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);*/
