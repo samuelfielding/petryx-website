@@ -176,7 +176,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 25px;
-  color: #4a4a4a;
+  color: #6e6f71;
   /*font-family: 'Montserrat', sans-serif;*/
 }
 
@@ -234,7 +234,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #dbdbdb;
+  background-color: #ff856d;
 }
 
 a.main-button {
@@ -252,7 +252,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #dbdbdb;
+  background-color: #ff856d;
 }
 
 button.main-button {
@@ -316,15 +316,15 @@ header
 }
 
 .background-header .main-nav .nav > li:hover > a {
-  color: #76a5af !important;
+  color: #ff856d !important;
 }
 
 .background-header .main-nav .nav > li > ul > li:hover > a {
-  color: #76a5af !important;
+  color: #ff856d !important;
 }
 
 .background-header .nav li a.active {
-  color: #76a5af !important;
+  color: #ff856d !important;
 }
 
 .header-area {
@@ -383,8 +383,8 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 14px;
   color: #fff;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
@@ -402,7 +402,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #76a5af;
+  color: #ff856d;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -472,12 +472,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #76a5af;
+  background: #ff856d;
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #76a5af;
+  color: #ff856d;
   padding-left: 25px;
 }
 
@@ -613,7 +613,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #76a5af;
+  color: #ff856d;
 }
 
 @media (max-width: 1200px) {
@@ -680,7 +680,7 @@ header
   }
   .header-area .main-nav .nav > li > a:hover,
   .header-area .main-nav .nav .submenu > ul > li > a:hover {
-    color: #76a5af;
+    color: #ff856d;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -733,7 +733,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/pexels-aaron-ulsh-2860705_rot.jpg);
+  background-image: url(../images/pexels-aaron-ulsh-2860705_rev.jpg);
   background-repeat: no-repeat;
 /*
 TRY IT ... with or without CENTER CENTER
@@ -913,11 +913,10 @@ about
 }
 
 #about h5,
-#about2 h5,
-#services2 h5 {
+#about2 h5 {
   font-size: 26px;
   font-weight: 700;
-  color: #1e1e1e;
+  color: #76a5af;
   line-height: 40px;
   margin-bottom: 25px;
   letter-spacing: 0.5px;
@@ -926,7 +925,7 @@ about
 #services h5 {
   font-size: 26px;
   font-weight: 700;
-  color: #1e1e1e;
+  color: #76a5af;
   line-height: 40px;
   margin-bottom: 25px;
   letter-spacing: 0.5px;
@@ -944,7 +943,7 @@ about
 #services2 h5 {
   font-size: 26px;
   font-weight: 700;
-  color: #1e1e1e;
+  color: #76a5af;
   line-height: 40px;
   margin-bottom: 25px;
   letter-spacing: 0.5px;
@@ -1092,7 +1091,7 @@ services
 .service-item .service-title {
   font-weight: 500;
   font-size: 22px;
-  color: #1e1e1e;
+  color: #6e6f71;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -1102,7 +1101,7 @@ services
 .service-item .service-title-sub {
   font-weight: 400;
   font-size: 15px;
-  color: #1e1e1e;
+  color: #6e6f71;
   letter-spacing: 0.7px;
   margin-bottom: 25px;
   position: relative;
@@ -1148,7 +1147,7 @@ services
 }
 
 .service-item a:hover {
-  background-color: #dbdbdb;
+  background-color: #ff856d;
   color: #fff;
 }
 
