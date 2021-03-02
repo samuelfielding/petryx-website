@@ -923,7 +923,7 @@ about
 }
 
 #services h5 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
   color: #76a5af;
   line-height: 40px;
@@ -941,6 +941,15 @@ about
 }
 
 #services2 h5 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #76a5af;
+  line-height: 40px;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+#services2 .left-heading h5 {
   font-size: 26px;
   font-weight: 700;
   color: #76a5af;
@@ -1493,7 +1502,7 @@ footer .copyright {
   }
 }*/
 footer {
-  background-color: #76a5af;
+  background-color: #fff;
   padding: 20px 0px;
 }
 
@@ -1508,9 +1517,9 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #fff;
+  color: #76a5af;
   text-align: center;
-  background-color: #76a5af;
+  background-color: #fff;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1525,7 +1534,7 @@ footer .social li a {
 
 footer .social li a:hover {
   /*background-color: #dbdbdb;*/
-  color: #fff;
+  color: #ff856d;
 }
 
 footer .social .fa-linkedin {
@@ -1536,7 +1545,7 @@ footer .copyright {
   margin-top: 10px;
   font-weight: 400;
   font-size: 15px;
-  color: #fff;
+  color: #76a5af;
   letter-spacing: 0.88px;
   text-transform: capitalize;
 }
