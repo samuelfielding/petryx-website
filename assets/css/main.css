@@ -914,8 +914,8 @@ about
 
 #about h5,
 #about2 h5 {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 400;
   color: #76a5af;
   line-height: 40px;
   margin-bottom: 25px;
@@ -924,7 +924,7 @@ about
 
 #services h5 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
   color: #76a5af;
   line-height: 40px;
   margin-bottom: 25px;
@@ -932,8 +932,8 @@ about
 }
 
 #services .left-heading h5 {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 400;
   color: #fff;
   line-height: 40px;
   margin-bottom: 25px;
@@ -942,7 +942,7 @@ about
 
 #services2 h5 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
   color: #76a5af;
   line-height: 40px;
   margin-bottom: 25px;
@@ -950,8 +950,8 @@ about
 }
 
 #services2 .left-heading h5 {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 400;
   color: #76a5af;
   line-height: 40px;
   margin-bottom: 25px;
