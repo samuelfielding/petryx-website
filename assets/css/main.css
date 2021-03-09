@@ -101,6 +101,10 @@ figcaption {
   outline: 0;
 }
 
+div {
+  align-items: center;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
