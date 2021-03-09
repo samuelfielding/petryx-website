@@ -101,9 +101,9 @@ figcaption {
   outline: 0;
 }
 
-/*div {
+div {
   align-items: center;
-}*/
+}
 
 .clearfix:after {
   content: ".";
