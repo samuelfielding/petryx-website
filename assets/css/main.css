@@ -885,13 +885,18 @@ about
 ---------------------------------------------
 */
 
-#about {
+#about,
+#about2 {
   padding: 60px 0px;
   border-bottom: 1px solid #eee;
 }
 
+#about3 {
+  padding: 40px 0px;
+}
+
 @media (max-width: 765px) {
-  #about {
+  #about, #about2 {
     padding: 20px 0px 120px 0px;
   }
 }
@@ -908,11 +913,13 @@ about
   padding: 60px 0px;
 }
 
-#about2 .left-text {
+#about2 .left-text,
+#about3 .left-text {
   align-self: center;
 }
 
-#about2 .right-image {
+#about2 .right-image,
+#about3 .right-image {
   align-self: center;
 }
 
@@ -924,6 +931,48 @@ about
   line-height: 40px;
   margin-bottom: 25px;
   letter-spacing: 0.5px;
+}
+
+#about3 h5 {
+  font-size: 26px;
+  font-weight: 400;
+  color: #ff856d;
+  line-height: 40px;
+  margin-bottom: 0px;
+  letter-spacing: 0.5px;
+}
+
+#about3 .social li {
+  margin: 0px 5px;
+  display: inline-block;
+}
+
+
+
+#about3 a.main-button {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#about3 a {
+  color: #fff;
+  text-align: center;
+  background-color: #76a5af;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+#about3 a:hover {
+  background-color: #ff856d;
+  color: #fff;
 }
 
 #services h5 {
@@ -944,14 +993,14 @@ about
   letter-spacing: 0.5px;
 }
 
-#services2 h5 {
+/*#services2 h5 {
   font-size: 22px;
   font-weight: 400;
   color: #76a5af;
   line-height: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   letter-spacing: 0.5px;
-}
+}*/
 
 #services2 .left-heading h5 {
   font-size: 30px;
@@ -963,7 +1012,8 @@ about
 }
 
 #about p,
-#about2 p {
+#about2 p,
+#about3 p {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 30px;
@@ -1104,7 +1154,7 @@ services
 .service-item .service-title {
   font-weight: 500;
   font-size: 22px;
-  color: #6e6f71;
+  color: #76a5af;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
