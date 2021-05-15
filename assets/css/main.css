@@ -212,14 +212,11 @@ body {
     overflow-x: hidden;
   }
   .mobile-top-fix {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 0px;
   }
-  .mobile-bottom-fix {
-    margin-bottom: 30px;
-  }
   .mobile-bottom-fix-big {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 }
 
@@ -353,7 +350,7 @@ header
   line-height: 80px;
   color: #fff;
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 400;
   /*text-transform: uppercase;*/
   /*letter-spacing: 2px;*/
   float: left;
@@ -833,9 +830,9 @@ TRY IT ... with or without CENTER CENTER
 }
 
 @media (max-width: 765px) {
-  .welcome-area {
+/*  .welcome-area {
     margin-bottom: 100px;
-  }
+  }*/
   .welcome-area .header-text {
     top: 55% !important;
     transform: perspective(1px) translateY(-50%) !important;
@@ -876,6 +873,7 @@ TRY IT ... with or without CENTER CENTER
   .welcome-area .header-text img {
     width: 80%;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -891,14 +889,15 @@ about
   border-bottom: 1px solid #eee;
 }
 
-#about3 {
-  padding: 40px 0px;
+@media (max-width: 765px) {
+  #about,
+  #about2 {
+    padding: 0px 0px;
+  }
 }
 
-@media (max-width: 765px) {
-  #about, #about2 {
-    padding: 20px 0px 120px 0px;
-  }
+#about3 {
+  padding: 40px 0px;
 }
 
 #about .right-text {
@@ -909,9 +908,15 @@ about
   margin-bottom: 40px;
 }
 
-#about2 {
-  padding: 60px 0px;
+
+@media (max-width: 765px) {
+  #about, #about2 {
+    padding: 20px 0px 0px 0px;
+  }
+
 }
+
+
 
 #about2 .left-text,
 #about3 .left-text {
@@ -1037,6 +1042,15 @@ about
   margin-bottom: 20px;
 }
 
+@media (max-width: 765px) {
+  #about3 .about-social-row {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+
+
 /* 
 ---------------------------------------------
 services
@@ -1091,6 +1105,17 @@ services
   padding: 50px 0px 90px 0px;
   /*background: #76a5af;*/
 }
+
+
+@media (max-width: 765px) {
+  
+  #services,
+  #services2 {
+    padding: 30px 0px 30px 0px;
+  }
+  
+}
+
 
 .service-item {
   cursor: grab ;
@@ -1229,10 +1254,26 @@ services
   margin: 0px 5px;
 }
 
+#services2 .owl-carousel button.owl-dot span {
+  border-radius: 50%;
+  background-color: #76a5af;
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
 .owl-carousel button.active span {
   width: 8px;
   height: 8px;
   padding-top: 1.5px;
+}
+
+#services2 .owl-carousel button.active span {
+  width: 8px;
+  height: 8px;
+  padding-top: 1.5px;
+  background-color: #76a5af;
 }
 
 .owl-carousel {
