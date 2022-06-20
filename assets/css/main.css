@@ -1,3 +1,11 @@
+/*
+
+ART FACTORY
+
+https://templatemo.com/tm-537-art-factory
+
+*/
+
 /* 
 ---------------------------------------------
 Table of contents
@@ -23,7 +31,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-/*@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 /* 
 ---------------------------------------------
 reset
@@ -189,12 +197,12 @@ body {
 }
 
 ::selection {
-  background: #c8c8c8;
+  background: #76a5af;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #c8c8c8;
+  background: #76a5af;
   color: #fff;
 }
 
@@ -216,7 +224,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 5px;
   padding: 12px 20px;
-  background-color: #000;
+  background-color: #76a5af;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -227,7 +235,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #c8c8c8;
+  background-color: #ff856d;
 }
 
 a.main-button {
@@ -301,7 +309,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #000 !important;
+  color: #76a5af !important;
 }
 
 .logo {
@@ -309,15 +317,15 @@ header
 }
 
 .background-header .main-nav .nav > li:hover > a {
-  color: #c8c8c8 !important;
+  color: #ff856d !important;
 }
 
 .background-header .main-nav .nav > li > ul > li:hover > a {
-  color: #c8c8c8 !important;
+  color: #ff856d !important;
 }
 
 .background-header .nav li a.active {
-  color: #c8c8c8 !important;
+  color: #ff856d !important;
 }
 
 .header-area {
@@ -340,7 +348,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: #000;
+  color: #fff;
   font-size: 26px;
   font-weight: 400;
   /*text-transform: uppercase;*/
@@ -378,7 +386,7 @@ header
   display: block;
   font-weight: 400;
   font-size: 14px;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -395,7 +403,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #c8c8c8;
+  color: #ff856d;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -506,7 +514,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #000;
+  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -526,7 +534,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #000;
+  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -578,7 +586,7 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #000;
+  background-color: #fff;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
@@ -590,7 +598,7 @@ header
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #000;
+  background-color: #fff;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
@@ -606,7 +614,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #c8c8c8;
+  color: #ff856d;
 }
 
 @media (max-width: 1200px) {
@@ -654,7 +662,7 @@ header
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #000;
+    background: #fff;
     border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -666,14 +674,14 @@ header
     padding-left: 20px !important;
     border: none !important;
     background: #fff !important;
-    color: #000 !important;
+    color: #3b566e !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
   }
   .header-area .main-nav .nav > li > a:hover,
   .header-area .main-nav .nav .submenu > ul > li > a:hover {
-    color: #c8c8c8;
+    color: #ff856d;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -726,11 +734,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/hummingbird_wide.png);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  background-color: #000000;
+  background-image: url(../images/pexels-aaron-ulsh-2860705_rev_dark_cutout.jpg);
   background-repeat: no-repeat;
 /*
 TRY IT ... with or without CENTER CENTER
@@ -741,31 +745,6 @@ TRY IT ... with or without CENTER CENTER
   height: 105vh;
   margin-top: -10vh;
 }
-
-@media (max-width: 765px) {
-  #welcome {
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../images/hummingbird_narrow.png);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  background-color: #000000;
-  background-repeat: no-repeat;
-/*
-TRY IT ... with or without CENTER CENTER
-  background-position: center center; 
-*/
-  background-size: cover;
-  width: 100%;
-  height: 105vh;
-  margin-top: -10vh;
-}
-}
-
 
 .welcome-area .header-text {
   position: absolute;
@@ -785,7 +764,7 @@ TRY IT ... with or without CENTER CENTER
   line-height: 80px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
-  color: #000;
+  color: #fff;
   font-family: 'Megrim', cursive;
   text-align: left;
 }
@@ -796,7 +775,7 @@ TRY IT ... with or without CENTER CENTER
   line-height: 30px;
   letter-spacing: 1px;
   margin-bottom: 15px;
-  color: #000;
+  color: #fff;
   text-align: left;
   /*margin-top: 55px;*/
 }
@@ -804,7 +783,7 @@ TRY IT ... with or without CENTER CENTER
 .welcome-area .header-text p {
   font-weight: 400;
   font-size: 18px;
-  color: #000;
+  color: #fff;
   line-height: 28px;
   letter-spacing: 0.25px;
   margin-bottom: 60px;
@@ -821,16 +800,16 @@ TRY IT ... with or without CENTER CENTER
     font-weight: 400;
     font-size: 60px;
     line-height: 50px;
-    color: #000;
+    color: #fff;
     font-family: 'Megrim', cursive;
     margin-bottom: 15px;
   }
   .welcome-area .header-text h1 span {
-    color: #000;
+    color: #fff;
   }
 
   .welcome-area .header-text p {
-    color: #000;
+    color: #fff;
     margin-bottom: 30px;
   }
 }
@@ -870,7 +849,7 @@ TRY IT ... with or without CENTER CENTER
     margin-top: 100px !important;
   }
   .welcome-area .header-text h1 span {
-    color: #000;
+    color: #fff;
   }
 
   .welcome-area .header-text h2 {
@@ -879,14 +858,14 @@ TRY IT ... with or without CENTER CENTER
   line-height: 24px;
   letter-spacing: 1px;
   margin-bottom: 10px;
-  color: #000;
+  color: #fff;
   text-align: left;
   /*margin-top: 55px;*/
 }
 
   .welcome-area .header-text p {
     text-align: left;
-    color: #000;
+    color: #fff;
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 40px;
@@ -905,25 +884,20 @@ about
 */
 
 #about,
-#about2,
-#aboutteam {
+#about2 {
   padding: 60px 0px;
   border-bottom: 1px solid #eee;
 }
 
 @media (max-width: 765px) {
   #about,
-  #about2,
-  #aboutteam {
+  #about2 {
     padding: 0px 0px;
   }
 }
 
 #about3 {
   padding: 40px 0px;
-  border-bottom-color: rgb(238, 238, 238);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
 }
 
 #about .right-text {
@@ -936,7 +910,7 @@ about
 
 
 @media (max-width: 765px) {
-  #about, #about2, #aboutteam {
+  #about, #about2 {
     padding: 20px 0px 0px 0px;
   }
 
@@ -958,25 +932,7 @@ about
 #about2 h5 {
   font-size: 30px;
   font-weight: 400;
-  color: #000;
-  line-height: 40px;
-  margin-bottom: 25px;
-  letter-spacing: 0.5px;
-}
-
-#aboutteam h5 {
-  font-size: 22px;
-  font-weight: 400;
-  color: #000;
-  line-height: 40px;
-  margin-bottom: 25px;
-  letter-spacing: 0.5px;
-}
-
-#aboutteam .left-heading h5 {
-  font-size: 30px;
-  font-weight: 400;
-  color: #000;
+  color: #76a5af;
   line-height: 40px;
   margin-bottom: 25px;
   letter-spacing: 0.5px;
@@ -985,11 +941,10 @@ about
 #about3 h5 {
   font-size: 26px;
   font-weight: 400;
-  color: #000;
+  color: #ff856d;
   line-height: 40px;
   margin-bottom: 0px;
   letter-spacing: 0.5px;
-  text-align: center;
 }
 
 #about3 .social li {
@@ -1007,7 +962,7 @@ about
 #about3 a {
   color: #fff;
   text-align: center;
-  background-color: #000;
+  background-color: #76a5af;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1021,14 +976,14 @@ about
 }
 
 #about3 a:hover {
-  background-color: #c8c8c8;
+  background-color: #ff856d;
   color: #fff;
 }
 
 #services h5 {
   font-size: 22px;
   font-weight: 400;
-  color: #000;
+  color: #76a5af;
   line-height: 40px;
   margin-bottom: 25px;
   letter-spacing: 0.5px;
@@ -1037,7 +992,7 @@ about
 #services .left-heading h5 {
   font-size: 30px;
   font-weight: 400;
-  color: #000;
+  color: #fff;
   line-height: 40px;
   margin-bottom: 25px;
   letter-spacing: 0.5px;
@@ -1046,7 +1001,7 @@ about
 /*#services2 h5 {
   font-size: 22px;
   font-weight: 400;
-  color: #000;
+  color: #76a5af;
   line-height: 40px;
   margin-bottom: 15px;
   letter-spacing: 0.5px;
@@ -1055,7 +1010,7 @@ about
 #services2 .left-heading h5 {
   font-size: 30px;
   font-weight: 400;
-  color: #000;
+  color: #76a5af;
   line-height: 40px;
   margin-bottom: 25px;
   letter-spacing: 0.5px;
@@ -1104,7 +1059,7 @@ services
 #services {
   position: relative;
   padding: 50px 0px 90px 0px;
-  background: #fff;
+  background: #76a5af;
   /*background: -moz-linear-gradient(
     -45deg,
     #76a5af 0%,
@@ -1163,7 +1118,7 @@ services
 
 
 .service-item {
-  /*cursor: grab ;*/
+  cursor: grab ;
   display: block;
   background: #ffffff;
   /*box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);*/
@@ -1200,7 +1155,7 @@ services
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #fff;
+  background: #ffffff;
   /*background: #fff;*/
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1224,7 +1179,7 @@ services
 .service-item .service-title {
   font-weight: 500;
   font-size: 22px;
-  color: #000;
+  color: #76a5af;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -1266,7 +1221,7 @@ services
 .service-item a {
   color: #fff;
   text-align: center;
-  background-color: #000;
+  background-color: #76a5af;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1280,7 +1235,7 @@ services
 }
 
 .service-item a:hover {
-  background-color: #c8c8c8;
+  background-color: #ff856d;
   color: #fff;
 }
 
@@ -1657,7 +1612,7 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #000;
+  color: #76a5af;
   text-align: center;
   background-color: #fff;
   width: 40px;
@@ -1674,7 +1629,7 @@ footer .social li a {
 
 footer .social li a:hover {
   /*background-color: #dbdbdb;*/
-  color: #c8c8c8;
+  color: #ff856d;
 }
 
 footer .social .fa-linkedin {
@@ -1685,7 +1640,7 @@ footer .copyright {
   margin-top: 10px;
   font-weight: 400;
   font-size: 15px;
-  color: #000;
+  color: #76a5af;
   letter-spacing: 0.88px;
   text-transform: capitalize;
 }
